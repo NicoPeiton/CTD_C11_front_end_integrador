@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #222222;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bgOrange{
+    background-color: #F0A83E;
+}
+
+.contact{
+    background-color: #3C2313;
+    color: #8A8787;
+}
+
+header, h3, nav a, .bgOrange{
+    color: white;
+}
+
+.price{
+    color: #F0A83E;
+}
+
+h1, footer p{
+    text-align: center;
+}
+
+.banner{
+    background-image: url('../img/bowl_green_background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 700;
+    font-size: large;
+}
